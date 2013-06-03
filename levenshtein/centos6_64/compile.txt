@@ -1,0 +1,4 @@
+yum install gcc-c++ mysql++-devel
+# where the source files are located.
+g++ -fPIC -I /usr/include/mysql/ -o levenshtein.so -shared levenshtein.cc
+cp levenshtein.so /usr/lib64/mysql/plugin/

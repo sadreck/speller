@@ -1,0 +1,5 @@
+LIBRARY levenshtein
+EXPORTS
+	levenshtein_init
+	levenshtein_deinit
+	levenshtein
